@@ -1,0 +1,40 @@
+/* Here is your custom css styles. */
+
+
+/* 小屏幕下（手机类）的样式 */
+@media only screen and (max-width: 601px) {
+    .bg-cover .title {
+	     font-size: 1.2rem;
+	    line-height: 1.2em;
+	}
+}
+
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+	.container {
+        width: 92%;
+    }
+    .bg-cover .title {
+	    font-size: 1.4rem;
+	    line-height: 1.2em;
+	}
+}
+
+/*大屏幕下(桌面类)的样式*/
+@media only screen and (min-width: 993px) {
+	.container {
+        width: 95%;
+        max-width: 1300px;
+    }
+    .bg-cover .row .col.offset-l2 {
+    	margin-left: 0;
+    }
+    .bg-cover .row .col.l8 {
+    	width: 100%;
+    }
+}
+
+header .brand-logo .logo-img {
+    height: 54px;
+    border-radius: 50%;
+}
